@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #041330;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.wrap {
+  width: 100%;
+  max-width: 800px;
+}
+.card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  text-align: center;
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.btn {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+
+
+
+.header-card {
+  background-color: #041330;
+  color: white;
+  text-align: center;
+}
+
+.header-card h1 {
+  margin: 0 0 10px 0;
+}
+
+.header-card p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.spectrum {
+  margin: 20px 0;
+  height: 100px;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+
+.bar {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg,
+    violet,
+    indigo,
+    blue,
+    cyan,
+    green,
+    yellow,
+    orange,
+    red
+  );
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.info h3 {
+  color: #041330;
+}
+
+.table {
+  background-color: #f9fafb;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.table-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.table-row {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  padding: 6px 0;
+}
+
+.table-row.header {
+  font-weight: bold;
+  background-color: #e0e7ff;
+}
+
+.table-cell {
+  flex: 1;
+  padding: 4px 8px;
+}
+
+.explicacao h3 {
+  color: #041330;
+}
+
+@media (max-width: 700px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .spectrum {
+    height: 80px;
+  }
+}

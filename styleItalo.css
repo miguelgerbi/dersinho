@@ -1,0 +1,101 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #19253f, #221f40);
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+nav {
+    background-color: #3a5f7b;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.card {
+    background: rgb(221, 216, 216);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #1e3c72;
+}
+
+button {
+    background-color: #2a5298;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e3c72;
+}
+
+#cores {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cor {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+footer {
+    background-color: #3a5f7b;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+body {
+    font-family: "Bookman Old Style", "Times New Roman", serif;
+}
+
+body {
+    background-color: #ffffff;
+}
